@@ -33,5 +33,5 @@ jobs:
       with:
         app-name: 'giuseppeholz(melcom)'
         slot-name: 'melcom'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_869aa1d4a5344af181e75391ef2c6cfe }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_4dc518e18c414c10bdb537028927c62c }}
         package: './myapp.zip'
