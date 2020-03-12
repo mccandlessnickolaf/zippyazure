@@ -30,4 +30,4 @@ jobs:
       with:
         app-name: 'edelgardklugeedelgard(edgard)'
         slot-name: 'edgard'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_bf032214c1c94a0694fc3ba0f2916646 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_ab2fe4beabb243a6af1ae8de1a11ff81 }}
