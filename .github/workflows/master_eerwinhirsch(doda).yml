@@ -30,4 +30,4 @@ jobs:
       with:
         app-name: 'eerwinhirsch(doda)'
         slot-name: 'doda'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_7e8aeb445c5f4a1691c57e6b7f105e2e }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_bacdef6ac8044d88987b8f5e76a37d91 }}
