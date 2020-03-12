@@ -30,4 +30,4 @@ jobs:
       with:
         app-name: 'eerwinhirschev(deplo)'
         slot-name: 'deplo'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_2fbc7e0f766e4667b039af30de1f63d2 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_c880fe28802b4a3cb6272d73973363c4 }}
