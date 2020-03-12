@@ -30,4 +30,4 @@ jobs:
       with:
         app-name: 'edelgardklugeedelgard2(razor)'
         slot-name: 'razor'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_6f5ef7f40f4d44b99f3632b86ebd6149 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_ae36715b5e1c409d80e15a84000d7061 }}
