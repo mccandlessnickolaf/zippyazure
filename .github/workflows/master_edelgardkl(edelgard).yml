@@ -18,7 +18,7 @@ jobs:
     - name: Set up Python version
       uses: actions/setup-python@v1
       with:
-        python-version: '3.7'
+        python-version: '3.8'
 
     - name: Build using AppService-Build
       uses: azure/appservice-build@v1
@@ -30,4 +30,4 @@ jobs:
       with:
         app-name: 'edelgardkl(edelgard)'
         slot-name: 'edelgard'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_801d9d632d0a4ff58ddc1804fea70dcd }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_9dd30d5d1b074ddbb9c5878e557d485c }}
