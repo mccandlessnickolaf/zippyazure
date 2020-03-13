@@ -30,4 +30,4 @@ jobs:
       with:
         app-name: 'denisjbolanos(denis)'
         slot-name: 'denis'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_c3cc3985976447e99ba7f318141332ca }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_dfa29e318bec4c028cf1d2dd60ea67e4 }}
