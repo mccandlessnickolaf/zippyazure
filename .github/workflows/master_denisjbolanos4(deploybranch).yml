@@ -30,4 +30,4 @@ jobs:
       with:
         app-name: 'denisjbolanos4(deploybranch)'
         slot-name: 'deploybranch'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_245d4501d61f4560a6eca93cc13d3888 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_e0d8039da72040f49b873b826ea2c296 }}
