@@ -30,4 +30,4 @@ jobs:
       with:
         app-name: 'zippyloans(robey)'
         slot-name: 'robey'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_7c14f5ef18904066938c1752abac07c1 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_6a0a7de1270444779fd5c91626b12ae2 }}
