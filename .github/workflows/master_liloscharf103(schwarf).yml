@@ -18,7 +18,7 @@ jobs:
     - name: Set up Python version
       uses: actions/setup-python@v1
       with:
-        python-version: '3.7'
+        python-version: '3.8'
 
     - name: Build using AppService-Build
       uses: azure/appservice-build@v1
@@ -30,4 +30,4 @@ jobs:
       with:
         app-name: 'liloscharf103(schwarf)'
         slot-name: 'schwarf'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_ac005dbaf9fc4e299bb46a9a02859e17 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_def9b107cb5f471e9eb678e54d4ff4cf }}
