@@ -1,0 +1,33 @@
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: Build and deploy Python app to Azure Web App - ritageisler79(geisler)
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@master
+
+    - name: Set up Python version
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.7'
+
+    - name: Build using AppService-Build
+      uses: azure/appservice-build@v1
+      with:
+        platform: python
+
+    - name: 'Deploy to Azure Web App'
+      uses: azure/webapps-deploy@v1
+      with:
+        app-name: 'ritageisler79(geisler)'
+        slot-name: 'geisler'
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_10f518b280694227b1b3cdc3a64b9a61 }}
