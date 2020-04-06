@@ -30,4 +30,4 @@ jobs:
       with:
         app-name: 'dorzy(brzy)'
         slot-name: 'brzy'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_2914b9c71f994a2aad690cd799f04d10 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_e1f530e9702641178c6637c6b96d5406 }}
